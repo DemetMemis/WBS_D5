@@ -1,0 +1,31 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns0: <http://webns.net/mvcb/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://github.com/DemetMemis/WBS_D5/blob/main/foaf.ttl.txt>
+  a foaf:PersonalProfileDocument ;
+  foaf:maker <https://github.com/DemetMemis/WBS_D5/blob/main/foaf.ttl.txt#me> ;
+  foaf:primaryTopic <https://github.com/DemetMemis/WBS_D5/blob/main/foaf.ttl.txt#me> ;
+  ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+  ns0:errorReportsTo <mailto:leigh@ldodds.com> .
+
+<https://github.com/DemetMemis/WBS_D5/blob/main/foaf.ttl.txt#me>
+  a foaf:Person ;
+  foaf:name "Demet Memish" ;
+  foaf:title "Mrs" ;
+  foaf:givenname "Demet" ;
+  foaf:family_name "Memish" ;
+  foaf:mbox_sha1sum "28469fbbb13bd37e09072bc1d7923a9f731ef67f" ;
+  foaf:homepage <https://www.facebook.com/demet.memis> ;
+  foaf:phone <tel:0038978704574> ;
+  foaf:schoolHomepage <https://www.finki.ukim.mk/> ;
+  foaf:knows [
+    a foaf:Person ;
+    foaf:name "eceibraim" ;
+    foaf:mbox_sha1sum "25112d6737cbd508664faba566f6bc72cb209d17" ;
+    rdfs:seeAlso <https://www.facebook.com/profile.php?id=100010272125924>
+  ], [
+    a foaf:Person ;
+    foaf:name "anesahajdari" ;
+    foaf:mbox_sha1sum "590dcdd3b747a21ae468758fc7c1dbb969237edb"
+  ] .
